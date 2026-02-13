@@ -2,11 +2,12 @@
 <html lang="es">
 <head>
     <title>Historia del Internet</title>
-    <style>
+    <style> /* estilos de la pagina */
         body {
             font-family: 'Georgia', 'Times New Roman', Times, serif;
             line-height: 1.6;
             padding: 40px 20px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
         }
 
         .imag {
@@ -16,7 +17,6 @@
 
         h1 {
             text-align: center;
-            color: var(--primary-color);
             text-transform: uppercase;
             letter-spacing: 2px;
         }
@@ -51,68 +51,89 @@
     </style>
 </head>
 <body>
+    <table class ="content">
+        <tr>
+            <td colspan="3">
+                <h1>Cronología del Internet</h1>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <a href="eventos/1969.html">1969</a>
+                <a href="eventos/1971.html">1971</a>
+                <a href="eventos/1983.html">1983</a>
+                <a href="eventos/1991.html">1991</a>
+                <a href="eventos/1998.html">1998</a>
+                <a href="eventos/2004.html">2004</a>
+                <a href="eventos/2007.html">2007</a>
+            </td>
+        </tr>
+        <tr>
+            <td> <!-- Publicidad de la izquierda -->
+                <img src="images/Mc.jpeg" width="400" height="800">
+            </td>
+            <td> <!-- Informacion de la ventana -->
+                <div class="event">
+                    <div class="content">
+                        <span class="year">1969</span>
+                        <h3>ARPANET: El Inicio</h3>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="content">
+                        <span class="year">1971</span>
+                        <h3>El Primer Email</h3>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="content">
+                        <span class="year">1983</span>
+                        <h3>Nace "Internet" (TCP/IP)</h3>
+                        <p>ARPANET adopta el protocolo TCP/IP. Este es el momento oficial en que las redes desconectadas pudieron hablar un mismo idioma universal.</p>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="content">
+                        <span class="year">1991</span>
+                        <h3>La World Wide Web (WWW)</h3>
+                        <p>Tim Berners-Lee hace pública la Web. Se lanza el primer sitio web del mundo, explicando qué era el proyecto W3.</p>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="content">
+                        <span class="year">1998</span>
+                        <h3>La Era de los Buscadores</h3>
+                        <p>Nace Google en un garaje de California. Su algoritmo PageRank organiza la información mundial y hace que internet sea fácil de navegar para todos.</p>
+                    </div>
+                </div>
+    
+                <div class="event">
+                    <div class="content">
+                        <span class="year">2004</span>
+                        <h3>La Web 2.0 y Redes Sociales</h3>
+                        <p>Nace Facebook y se populariza el término "Web 2.0". Internet deja de ser solo lectura y los usuarios comienzan a crear contenido masivamente.</p>
+                    </div>
+                </div>
+                
+                <div class="event">
+                    <div class="content">
+                        <span class="year">2007</span>
+                        <h3>Internet Móvil</h3>
+                        <p>Lanzamiento del primer iPhone. Marca el inicio de la navegación real en smartphones, haciendo que internet esté en nuestros bolsillos 24/7.</p>
+                    </div>
+                </div>
+            </td>
 
-    <h1>Cronología del Internet</h1>
+            <td> <!-- Publicidad de la derecha -->
+                <img src="images/Mc.jpeg" width="400" height="800">
+            </td>
+            
+        </tr>
 
-    <div class="timeline">
-
-        <div class="event">
-            <div class="content">
-                <span class="year">1969</span>
-                <h3>ARPANET: El Inicio</h3>
-                <p>El Departamento de Defensa de EE.UU. crea ARPANET. Se envía el primer mensaje "LO" (intentando escribir LOGIN) entre la Universidad de UCLA y Stanford.</p>
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="content">
-                <span class="year">1971</span>
-                <h3>El Primer Email</h3>
-                <p>Ray Tomlinson envía el primer correo electrónico de la historia. Él es quien decide usar el símbolo <strong>@</strong> para separar el usuario de la computadora.</p>
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="content">
-                <span class="year">1983</span>
-                <h3>Nace "Internet" (TCP/IP)</h3>
-                <p>ARPANET adopta el protocolo TCP/IP. Este es el momento oficial en que las redes desconectadas pudieron hablar un mismo idioma universal.</p>
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="content">
-                <span class="year">1991</span>
-                <h3>La World Wide Web (WWW)</h3>
-                <p>Tim Berners-Lee hace pública la Web. Se lanza el primer sitio web del mundo, explicando qué era el proyecto W3.</p>
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="content">
-                <span class="year">1998</span>
-                <h3>La Era de los Buscadores</h3>
-                <p>Nace Google en un garaje de California. Su algoritmo PageRank organiza la información mundial y hace que internet sea fácil de navegar para todos.</p>
-            </div>
-        </div>
-
-        <div class="event">
-            <div class="content">
-                <span class="year">2004</span>
-                <h3>La Web 2.0 y Redes Sociales</h3>
-                <p>Nace Facebook y se populariza el término "Web 2.0". Internet deja de ser solo lectura y los usuarios comienzan a crear contenido masivamente.</p>
-            </div>
-        </div>
-        
-        <div class="event">
-            <div class="content">
-                <span class="year">2007</span>
-                <h3>Internet Móvil</h3>
-                <p>Lanzamiento del primer iPhone. Marca el inicio de la navegación real en smartphones, haciendo que internet esté en nuestros bolsillos 24/7.</p>
-            </div>
-        </div>
-
-    </div>
-
+    </table>
 </body>
 </html>
