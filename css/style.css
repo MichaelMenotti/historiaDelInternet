@@ -1,0 +1,66 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+    text-align: justify;
+}
+
+.imag {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.publi {
+    width: 400px;
+    height: 800px;
+    display: block;
+    margin: auto;
+
+}
+
+.links {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2;
+    color: black;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.event {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+}
+
+.year {
+    font-weight: bold;
+    font-size: 1.4;
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+    color: green;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.2;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 0.95;
+}
